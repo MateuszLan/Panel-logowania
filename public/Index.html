@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaliczenie</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <div class='piec'><center>ELO</center></div>
+    <div id="logowanie">
+        <form action="/zalogowany" method="post">
+    <center>
+        <fieldset>
+            <legend><h1>Logowanie</h1></legend>
+    <input type="text" name="login" id="login" placeholder="login">
+    <input type="password" name="haslo" id="pass" placeholder="hasło">
+    <input type="reset" value="Wyczyść">
+    <input type="submit" value="Loguj">
+   </fieldset>
+</center>
+</form>
+</div>
+<div id="stopka">
+    
+    <marquee scrollamount='6' scrolldelay="16" behavior="alternate" direction="up" height="100%">
+        <marquee scrollamount='6' scrolldelay="16"behavior="alternate" direction="right" height="100%">
+           <div id='elo'> <span id='elo'> autor: Mateusz Langaj</span></div>
+        </marquee>
+    </marquee>
+</div>
+
+<script src="Script.js"></script>
+
+</body>
+</html>
